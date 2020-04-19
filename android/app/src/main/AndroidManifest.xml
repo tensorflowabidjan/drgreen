@@ -10,7 +10,7 @@
         android:label="dr_green"
         android:icon="@mipmap/ic_launcher">
     <meta-data android:name="com.google.android.geo.API_KEY"
-               android:value="AIzaSyAUVla9kM-7iYqFTECRRwTsSJxqnkNPoBc"/>
+               android:value="API KEY"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
