@@ -11,7 +11,7 @@
         android:icon="@mipmap/drgreen">
     <meta-data android:name="com.google.android.geo.API_KEY"
 <<<<<<< HEAD
-               android:value="AIzaSyAo6sSAOZoH89I87SR1fMHihWVosv-mTfs"/>
+               android:value=""/>
 =======
                android:value="API KEY"/>
 >>>>>>> d54fd87afc5820e1f0d5c59492506c2dd801bf6f
