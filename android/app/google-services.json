@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "709921918047",
+    "firebase_url": "https://drgreen-f50ee.firebaseio.com",
+    "project_id": "drgreen-f50ee",
+    "storage_bucket": "drgreen-f50ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709921918047:android:363707e836320a04fadfea",
+        "android_client_info": {
+          "package_name": "com.example.dr_green"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709921918047-b7nl05nfhbngg53n2bqvljlmenb8d35n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTOOqIpxXZzt7VbzJPp7XxJsv1tPxfMhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709921918047-b7nl05nfhbngg53n2bqvljlmenb8d35n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

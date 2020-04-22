@@ -7,10 +7,10 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="dr_green"
-        android:icon="@mipmap/ic_launcher">
+        android:label="DrGreen"
+        android:icon="@mipmap/drgreen">
     <meta-data android:name="com.google.android.geo.API_KEY"
-               android:value="AIzaSyAUVla9kM-7iYqFTECRRwTsSJxqnkNPoBc"/>
+               android:value="AIzaSyAo6sSAOZoH89I87SR1fMHihWVosv-mTfs"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

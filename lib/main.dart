@@ -1,8 +1,13 @@
 import 'package:camera/camera.dart';
-import 'package:dr_green/camera/camera_screen.dart';
+import 'package:dr_green/camera/camera.dart';
+import 'package:dr_green/camera/user_model.dart';
 import 'package:dr_green/detection/home.dart';
 import 'package:dr_green/map/google_maps.dart';
+import 'package:dr_green/camera/main.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
+UserModel of(BuildContext context) => Provider.of<UserModel>(context);
 
 List<CameraDescription> cameras;
 Future<void> main() async {
@@ -60,7 +65,8 @@ class MyApp extends StatelessWidget {
             children: <Widget>[
               HomePage(cameras),
               MyHomePage(),
-              CameraScreen(),
+              MyHome()
+
               //BaseGoogleMap().getWidget(),
               // AdvicesPage(),
               //AboutPage()
@@ -70,5 +76,6 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
     );
+    
   }
 }
