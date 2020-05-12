@@ -132,6 +132,7 @@ class _AddDatasetFormState extends State<AddDatasetForm> {
                   if (!datasetTitleRegex.hasMatch(value)) {
                     return "Can only contain letters, numbers, and underscores";
                   }
+				  return null;
                 },
               ),
               Padding(padding: new EdgeInsets.all(5.0)),
@@ -142,6 +143,7 @@ class _AddDatasetFormState extends State<AddDatasetForm> {
                   if (value.isEmpty) {
                     return 'Please enter a valid description';
                   }
+				  return null;
                 },
               ),
               Padding(padding: new EdgeInsets.all(5.0)),

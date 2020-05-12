@@ -35,5 +35,5 @@ class InheritedStorage extends InheritedWidget {
   bool updateShouldNotify(InheritedWidget oldWidget) => true;
 
   static InheritedStorage of(BuildContext context) =>
-      context.inheritFromWidgetOfExactType(InheritedStorage);
+      context.dependOnInheritedWidgetOfExactType(aspect: InheritedStorage);
 }

@@ -165,9 +165,7 @@ class DatasetActions extends StatelessWidget {
     if (dataset.isCollaborator(model)) {
       return Icons.people;
     }
-    if (dataset.isPublic) {
-      return Icons.public;
-    }
+    return Icons.public;
   }
 
   String sharingLabel(Dataset dataset) {
@@ -177,9 +175,7 @@ class DatasetActions extends StatelessWidget {
     if (dataset.isCollaborator(model)) {
       return "Shared";
     }
-    if (dataset.isPublic) {
-      return "Public";
-    }
+    return "Public";
   }
 
   Color getColor(Dataset dataset) {
@@ -189,9 +185,7 @@ class DatasetActions extends StatelessWidget {
     if (dataset.isCollaborator(model)) {
       return Colors.pink[400];
     }
-    if (dataset.isPublic) {
-      return Colors.indigo;
-    }
+    return Colors.indigo;
   }
 
   @override

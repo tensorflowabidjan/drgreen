@@ -153,7 +153,6 @@ class _InviteUserAlertDialogState extends State<InviteUserAlertDialog> {
           child: new Text("INVITE"),
           onPressed: () async {
             final emailId = _emailController.text;
-            // TODO: Add better validation
             if (emailId.isNotEmpty) {
               await collaborators.add({
                 'parent_key': widget.dataset.id,
